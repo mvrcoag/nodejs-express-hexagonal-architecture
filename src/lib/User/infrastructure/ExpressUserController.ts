@@ -39,7 +39,7 @@ export class ExpressUserController {
         id,
         name,
         email,
-        new Date(createdAt)
+        new Date(createdAt),
       );
 
       return res.status(201).send();
@@ -60,7 +60,7 @@ export class ExpressUserController {
         id,
         name,
         email,
-        new Date(createdAt)
+        new Date(createdAt),
       );
 
       return res.status(204).send();
